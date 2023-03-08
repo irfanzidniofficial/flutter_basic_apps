@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/basic_widget/circle_avatar.dart';
+import 'package:flutter_application/layout_widget/expanded_widget.dart';
+import 'package:flutter_application/layout_widget/sizebox_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CircleAvatarWidget(),
+      home: const ExpandedWidget(),
     );
   }
 }
